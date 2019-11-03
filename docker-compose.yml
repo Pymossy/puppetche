@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    prerender:
+        build:
+          context: ./src/
+        ports:
+          - 8090:8090
+        environment:
+          - REDIS_HOST=redis
+          - REDIS_DB=15
+    redis:
+        image: redis
+        ports:
+          - "6379:6379"

@@ -1,0 +1,14 @@
+{
+  "name": "puppetche",
+  "version": "0.0.1",
+  "description": "A simple prerenderer with puppeter and used redis for cache",
+  "main": "index.js",
+  "author": "Mostafa Shahheydari",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "puppeteer": "1.9.0",
+    "redis": "^2.8.0"
+  }
+}
